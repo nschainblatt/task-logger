@@ -1,7 +1,6 @@
 use std::fs;
 use std::fs::OpenOptions;
-use std::io;
-use std::io::Write;
+use std::io::{self, Write};
 
 pub fn create_writable_file(file_path: &str) -> Result<fs::File, io::Error> {
     fs::File::create(file_path)
