@@ -1,2 +1,2 @@
 [workspace]
-members = [ "bin", "file_handling"]
+members = [ "bin", "file_handling", "user_interface"]
